@@ -1,13 +1,13 @@
 # CloneCodeObjectFiles
 
-Clone Folders, Files and File Content and replaces text like this:
+Clone Folders, Files and File Content and replaces inside text like this:
 
-"Objects" -> "Perros"
-"objects" -> "perros"
-"Object" -> "Perro"
-"object" -> "perro"
+"Objects" -> "Fellas"
+"objects" -> "Fellas"
+"Object" -> "Fella"
+"object" -> "fella"
 
 Allow clone especific files like "index.js" and change its content only.
 
 Ex: 
-/components/perros/index.js has references
+/components/fellas/index.js has references
