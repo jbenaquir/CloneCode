@@ -1,0 +1,250 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.6.1": {
+      "Mapster/3.2.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp"
+        ],
+        "compile": {
+          "lib/net45/Mapster.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Mapster.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.Client/5.2.6": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "6.0.4"
+        },
+        "frameworkAssemblies": [
+          "System.Net.Http"
+        ],
+        "compile": {
+          "lib/net45/System.Net.Http.Formatting.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Net.Http.Formatting.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.Core/5.2.6": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Client": "5.2.6"
+        },
+        "compile": {
+          "lib/net45/System.Web.Http.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Http.dll": {}
+        }
+      },
+      "Newtonsoft.Json/6.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "SimpleInjector/4.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/SimpleInjector.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SimpleInjector.dll": {}
+        }
+      },
+      "SimpleInjector.Integration.WebApi/4.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Core": "4.0.20710",
+          "SimpleInjector": "4.3.0"
+        },
+        "compile": {
+          "lib/net45/SimpleInjector.Integration.WebApi.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SimpleInjector.Integration.WebApi.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Mapster/3.2.0": {
+      "sha512": "V3mcJyhn2nUb/5n5DJiRpd1tnzeC44Q2BdC2JE2VWEjnSF/6aQvsnTaDLEWwpwY7nzGjH0dmI15ZNEo7caYaoA==",
+      "type": "package",
+      "path": "mapster/3.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Mapster.dll",
+        "lib/net45/Mapster.dll",
+        "lib/netstandard1.3/Mapster.dll",
+        "mapster.3.2.0.nupkg.sha512",
+        "mapster.nuspec"
+      ]
+    },
+    "Microsoft.AspNet.WebApi.Client/5.2.6": {
+      "sha512": "owAlEIUZXWSnkK8Z1c+zR47A0X6ykF4XjbPok4lQKNuciUfHLGPd6QnI+rt/8KlQ17PmF+I4S3f+m+Qe4IvViw==",
+      "type": "package",
+      "path": "microsoft.aspnet.webapi.client/5.2.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/System.Net.Http.Formatting.dll",
+        "lib/net45/System.Net.Http.Formatting.xml",
+        "lib/netstandard2.0/System.Net.Http.Formatting.dll",
+        "lib/netstandard2.0/System.Net.Http.Formatting.xml",
+        "lib/portable-wp8+netcore45+net45+wp81+wpa81/System.Net.Http.Formatting.dll",
+        "lib/portable-wp8+netcore45+net45+wp81+wpa81/System.Net.Http.Formatting.xml",
+        "microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
+        "microsoft.aspnet.webapi.client.nuspec"
+      ]
+    },
+    "Microsoft.AspNet.WebApi.Core/5.2.6": {
+      "sha512": "b0WJ8Zv0hJveG49woesYo0gpTUio0VC0zV75CAMRsu6S77fqmn8KAb/m7vY7ep8ldATUGetMVfULPZOS0FNRpg==",
+      "type": "package",
+      "path": "microsoft.aspnet.webapi.core/5.2.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Content/web.config.transform",
+        "lib/net45/System.Web.Http.dll",
+        "lib/net45/System.Web.Http.xml",
+        "microsoft.aspnet.webapi.core.5.2.6.nupkg.sha512",
+        "microsoft.aspnet.webapi.core.nuspec"
+      ]
+    },
+    "Newtonsoft.Json/6.0.4": {
+      "sha512": "FyQLmEpjsCrEP+znauLDGAi+h6i9YnaMkITlfIoiM4RYyX3nki306bTHsr/0okiIvIc7BJhQTbOAIZVocccFUw==",
+      "type": "package",
+      "path": "newtonsoft.json/6.0.4",
+      "files": [
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netcore45/Newtonsoft.Json.dll",
+        "lib/netcore45/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.6.0.4.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "tools/install.ps1"
+      ]
+    },
+    "SimpleInjector/4.3.0": {
+      "sha512": "qA2sd1Rdt7x0OneTsg6iNoNt9utTTqaxcUzANMYocWchzI2JDGL0iRMD+ek7WjC89UxiTK8u2Zm5fswR8tyhhA==",
+      "type": "package",
+      "path": "simpleinjector/4.3.0",
+      "files": [
+        "lib/net40/SimpleInjector.dll",
+        "lib/net40/SimpleInjector.xml",
+        "lib/net45/SimpleInjector.dll",
+        "lib/net45/SimpleInjector.xml",
+        "lib/netstandard1.0/SimpleInjector.dll",
+        "lib/netstandard1.0/SimpleInjector.xml",
+        "lib/netstandard1.3/SimpleInjector.dll",
+        "lib/netstandard1.3/SimpleInjector.xml",
+        "simpleinjector.4.3.0.nupkg.sha512",
+        "simpleinjector.nuspec"
+      ]
+    },
+    "SimpleInjector.Integration.WebApi/4.3.0": {
+      "sha512": "1Wd8zHaHKWtrLuqE6Umpm2/r+3lHchdOBjxlbx3rnzswrUZDUvEcOc5c8xFA77Olshqx3+UGrAyrVQQMlwhZIw==",
+      "type": "package",
+      "path": "simpleinjector.integration.webapi/4.3.0",
+      "files": [
+        "lib/net45/SimpleInjector.Integration.WebApi.dll",
+        "lib/net45/SimpleInjector.Integration.WebApi.xml",
+        "simpleinjector.integration.webapi.4.3.0.nupkg.sha512",
+        "simpleinjector.integration.webapi.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.6.1": [
+      "Mapster >= 3.2.0",
+      "Microsoft.AspNet.WebApi.Client >= 5.2.6",
+      "Microsoft.AspNet.WebApi.Core >= 5.2.6",
+      "SimpleInjector >= 4.3.0",
+      "SimpleInjector.Integration.WebApi >= 4.3.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\un22d\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Repository\\jolebequi@gmail.com\\CloneCodeObjectFiles\\src\\Asotea.Infrastructure\\Asotea.Infrastructure.csproj",
+      "projectName": "Asotea.Infrastructure",
+      "projectPath": "D:\\Repository\\jolebequi@gmail.com\\CloneCodeObjectFiles\\src\\Asotea.Infrastructure\\Asotea.Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\un22d\\.nuget\\packages\\",
+      "outputPath": "D:\\Repository\\jolebequi@gmail.com\\CloneCodeObjectFiles\\src\\Asotea.Infrastructure\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\un22d\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net461"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net461": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net461": {
+        "dependencies": {
+          "Mapster": {
+            "target": "Package",
+            "version": "[3.2.0, )"
+          },
+          "Microsoft.AspNet.WebApi.Client": {
+            "target": "Package",
+            "version": "[5.2.6, )"
+          },
+          "Microsoft.AspNet.WebApi.Core": {
+            "target": "Package",
+            "version": "[5.2.6, )"
+          },
+          "SimpleInjector": {
+            "target": "Package",
+            "version": "[4.3.0, )"
+          },
+          "SimpleInjector.Integration.WebApi": {
+            "target": "Package",
+            "version": "[4.3.0, )"
+          }
+        }
+      }
+    }
+  }
+}

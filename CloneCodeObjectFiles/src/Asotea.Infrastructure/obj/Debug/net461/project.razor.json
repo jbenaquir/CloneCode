@@ -1,0 +1,14 @@
+{
+  "ProjectFilePath": "d:\\Repository\\CTI\\CTITimeTrackerServer\\src\\CTI.Infrastructure\\Cti.Infrastructure.csproj",
+  "TargetFramework": "net461",
+  "TagHelpers": [],
+  "Configuration": {
+    "ConfigurationName": "UnsupportedRazor",
+    "LanguageVersion": "1.0",
+    "Extensions": [
+      {
+        "ExtensionName": "UnsupportedRazorExtension"
+      }
+    ]
+  }
+}

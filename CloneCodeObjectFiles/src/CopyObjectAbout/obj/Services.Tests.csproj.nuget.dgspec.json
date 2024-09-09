@@ -1,0 +1,254 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Repository\\jolebequi@gmail.com\\CloneCodeObjectFiles\\src\\CopyObjectAbout\\Services.Tests.csproj": {}
+  },
+  "projects": {
+    "D:\\Repository\\jolebequi@gmail.com\\CloneCodeObjectFiles\\src\\Asotea.Infrastructure\\Asotea.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Repository\\jolebequi@gmail.com\\CloneCodeObjectFiles\\src\\Asotea.Infrastructure\\Asotea.Infrastructure.csproj",
+        "projectName": "Asotea.Infrastructure",
+        "projectPath": "D:\\Repository\\jolebequi@gmail.com\\CloneCodeObjectFiles\\src\\Asotea.Infrastructure\\Asotea.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\un22d\\.nuget\\packages\\",
+        "outputPath": "D:\\Repository\\jolebequi@gmail.com\\CloneCodeObjectFiles\\src\\Asotea.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\un22d\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net461"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net461": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net461": {
+          "dependencies": {
+            "Mapster": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "Microsoft.AspNet.WebApi.Client": {
+              "target": "Package",
+              "version": "[5.2.6, )"
+            },
+            "Microsoft.AspNet.WebApi.Core": {
+              "target": "Package",
+              "version": "[5.2.6, )"
+            },
+            "SimpleInjector": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "SimpleInjector.Integration.WebApi": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          }
+        }
+      }
+    },
+    "D:\\Repository\\jolebequi@gmail.com\\CloneCodeObjectFiles\\src\\CopyObjectAbout\\Services.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Repository\\jolebequi@gmail.com\\CloneCodeObjectFiles\\src\\CopyObjectAbout\\Services.Tests.csproj",
+        "projectName": "Services.Tests",
+        "projectPath": "D:\\Repository\\jolebequi@gmail.com\\CloneCodeObjectFiles\\src\\CopyObjectAbout\\Services.Tests.csproj",
+        "packagesPath": "C:\\Users\\un22d\\.nuget\\packages\\",
+        "outputPath": "D:\\Repository\\jolebequi@gmail.com\\CloneCodeObjectFiles\\src\\CopyObjectAbout\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\un22d\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "D:\\Repository\\jolebequi@gmail.com\\CloneCodeObjectFiles\\src\\Asotea.Infrastructure\\Asotea.Infrastructure.csproj": {
+                "projectPath": "D:\\Repository\\jolebequi@gmail.com\\CloneCodeObjectFiles\\src\\Asotea.Infrastructure\\Asotea.Infrastructure.csproj"
+              },
+              "D:\\Repository\\jolebequi@gmail.com\\CloneCodeObjectFiles\\src\\Models\\Models.csproj": {
+                "projectPath": "D:\\Repository\\jolebequi@gmail.com\\CloneCodeObjectFiles\\src\\Models\\Models.csproj"
+              },
+              "D:\\Repository\\jolebequi@gmail.com\\CloneCodeObjectFiles\\src\\Services\\Services.csproj": {
+                "projectPath": "D:\\Repository\\jolebequi@gmail.com\\CloneCodeObjectFiles\\src\\Services\\Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[15.9.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\Repository\\jolebequi@gmail.com\\CloneCodeObjectFiles\\src\\Models\\Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Repository\\jolebequi@gmail.com\\CloneCodeObjectFiles\\src\\Models\\Models.csproj",
+        "projectName": "Models",
+        "projectPath": "D:\\Repository\\jolebequi@gmail.com\\CloneCodeObjectFiles\\src\\Models\\Models.csproj",
+        "packagesPath": "C:\\Users\\un22d\\.nuget\\packages\\",
+        "outputPath": "D:\\Repository\\jolebequi@gmail.com\\CloneCodeObjectFiles\\src\\Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\un22d\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\Repository\\jolebequi@gmail.com\\CloneCodeObjectFiles\\src\\Services\\Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Repository\\jolebequi@gmail.com\\CloneCodeObjectFiles\\src\\Services\\Services.csproj",
+        "projectName": "Services",
+        "projectPath": "D:\\Repository\\jolebequi@gmail.com\\CloneCodeObjectFiles\\src\\Services\\Services.csproj",
+        "packagesPath": "C:\\Users\\un22d\\.nuget\\packages\\",
+        "outputPath": "D:\\Repository\\jolebequi@gmail.com\\CloneCodeObjectFiles\\src\\Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\un22d\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "D:\\Repository\\jolebequi@gmail.com\\CloneCodeObjectFiles\\src\\Asotea.Infrastructure\\Asotea.Infrastructure.csproj": {
+                "projectPath": "D:\\Repository\\jolebequi@gmail.com\\CloneCodeObjectFiles\\src\\Asotea.Infrastructure\\Asotea.Infrastructure.csproj"
+              },
+              "D:\\Repository\\jolebequi@gmail.com\\CloneCodeObjectFiles\\src\\Models\\Models.csproj": {
+                "projectPath": "D:\\Repository\\jolebequi@gmail.com\\CloneCodeObjectFiles\\src\\Models\\Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

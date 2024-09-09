@@ -1,0 +1,133 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "Services/1.0.0": {
+        "dependencies": {
+          "Asotea.Infrastructure": "1.0.0",
+          "Models": "1.0.0"
+        },
+        "runtime": {
+          "Services.dll": {}
+        }
+      },
+      "Asotea.Infrastructure/1.0.0": {
+        "dependencies": {
+          "SimpleInjector": "4.3.0.0",
+          "System.Web.Http": "5.2.6.0",
+          "Mapster": "3.2.0.0",
+          "SimpleInjector.Integration.WebApi": "4.3.0.0",
+          "System.Net.Http.Formatting": "5.2.6.0",
+          "Newtonsoft.Json": "6.0.0.0"
+        },
+        "runtime": {
+          "Asotea.Infrastructure.dll": {}
+        }
+      },
+      "Models/1.0.0": {
+        "runtime": {
+          "Models.dll": {}
+        }
+      },
+      "SimpleInjector.Reference/4.3.0.0": {
+        "runtime": {
+          "SimpleInjector.dll": {
+            "assemblyVersion": "4.3.0.0",
+            "fileVersion": "4.3.0.0"
+          }
+        }
+      },
+      "System.Web.Http.Reference/5.2.6.0": {
+        "runtime": {
+          "System.Web.Http.dll": {
+            "assemblyVersion": "5.2.6.0",
+            "fileVersion": "5.2.60510.0"
+          }
+        }
+      },
+      "Mapster.Reference/3.2.0.0": {
+        "runtime": {
+          "Mapster.dll": {
+            "assemblyVersion": "3.2.0.0",
+            "fileVersion": "3.2.0.0"
+          }
+        }
+      },
+      "SimpleInjector.Integration.WebApi.Reference/4.3.0.0": {
+        "runtime": {
+          "SimpleInjector.Integration.WebApi.dll": {
+            "assemblyVersion": "4.3.0.0",
+            "fileVersion": "4.3.0.0"
+          }
+        }
+      },
+      "System.Net.Http.Formatting.Reference/5.2.6.0": {
+        "runtime": {
+          "System.Net.Http.Formatting.dll": {
+            "assemblyVersion": "5.2.6.0",
+            "fileVersion": "5.2.60510.0"
+          }
+        }
+      },
+      "Newtonsoft.Json.Reference/6.0.0.0": {
+        "runtime": {
+          "Newtonsoft.Json.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.4.17603"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Asotea.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SimpleInjector.Reference/4.3.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Web.Http.Reference/5.2.6.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mapster.Reference/3.2.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SimpleInjector.Integration.WebApi.Reference/4.3.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Net.Http.Formatting.Reference/5.2.6.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Newtonsoft.Json.Reference/6.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,15 @@
+D:\Repository\CTI\CTITimeTrackerServer\src\CTI.Infrastructure\bin\Debug\net461\Cti.Infrastructure.dll
+D:\Repository\CTI\CTITimeTrackerServer\src\CTI.Infrastructure\bin\Debug\net461\Cti.Infrastructure.pdb
+D:\Repository\CTI\CTITimeTrackerServer\src\CTI.Infrastructure\bin\Debug\net461\Mapster.dll
+D:\Repository\CTI\CTITimeTrackerServer\src\CTI.Infrastructure\bin\Debug\net461\System.Net.Http.Formatting.dll
+D:\Repository\CTI\CTITimeTrackerServer\src\CTI.Infrastructure\bin\Debug\net461\System.Web.Http.dll
+D:\Repository\CTI\CTITimeTrackerServer\src\CTI.Infrastructure\bin\Debug\net461\Newtonsoft.Json.dll
+D:\Repository\CTI\CTITimeTrackerServer\src\CTI.Infrastructure\bin\Debug\net461\SimpleInjector.dll
+D:\Repository\CTI\CTITimeTrackerServer\src\CTI.Infrastructure\bin\Debug\net461\SimpleInjector.Integration.WebApi.dll
+D:\Repository\CTI\CTITimeTrackerServer\src\CTI.Infrastructure\obj\Debug\net461\Cti.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Repository\CTI\CTITimeTrackerServer\src\CTI.Infrastructure\obj\Debug\net461\Cti.Infrastructure.AssemblyInfoInputs.cache
+D:\Repository\CTI\CTITimeTrackerServer\src\CTI.Infrastructure\obj\Debug\net461\Cti.Infrastructure.AssemblyInfo.cs
+D:\Repository\CTI\CTITimeTrackerServer\src\CTI.Infrastructure\obj\Debug\net461\Cti.Infrastructure.csproj.CopyComplete
+D:\Repository\CTI\CTITimeTrackerServer\src\CTI.Infrastructure\obj\Debug\net461\Cti.Infrastructure.dll
+D:\Repository\CTI\CTITimeTrackerServer\src\CTI.Infrastructure\obj\Debug\net461\Cti.Infrastructure.pdb
+D:\Repository\CTI\CTITimeTrackerServer\src\CTI.Infrastructure\obj\Debug\net461\Cti.Infrastructure.csprojAssemblyReference.cache

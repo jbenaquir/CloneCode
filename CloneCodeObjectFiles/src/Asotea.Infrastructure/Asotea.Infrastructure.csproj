@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net461</TargetFramework>
+    <Configurations>Debug;Release;Stage</Configurations>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Mapster" Version="3.2.0" />
+    <PackageReference Include="Microsoft.AspNet.WebApi.Client" Version="5.2.6" />
+    <PackageReference Include="Microsoft.AspNet.WebApi.Core" Version="5.2.6" />
+    <PackageReference Include="SimpleInjector" Version="4.3.0" />
+    <PackageReference Include="SimpleInjector.Integration.WebApi" Version="4.3.0" />
+  </ItemGroup>
+
+</Project>
